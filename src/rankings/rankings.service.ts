@@ -42,10 +42,10 @@ export class RankingsService {
             ranking.pontos = eventoFilter.valor;
           } else {
             const eventoFilter = categoria.eventos.find(
-              (evento) => (evento.nome = EventoNome.VITORIA),
+              (evento) => (evento.nome = EventoNome.DERROTA),
             );
 
-            ranking.evento = EventoNome.VITORIA;
+            ranking.evento = EventoNome.DERROTA;
             ranking.operacao = eventoFilter.operacao;
             ranking.pontos = eventoFilter.valor;
           }
