@@ -30,6 +30,7 @@
     "@types/mongoose": "^5.11.97",
     "amqp-connection-manager": "^4.1.6",
     "amqplib": "^0.10.3",
+    "moment-timezone": "^0.5.37",
     "mongoose": "^6.6.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
