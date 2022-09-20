@@ -9,7 +9,7 @@ import { ProxyRMQModule } from './proxyrmq/proxyrmq.module';
     RankingsModule,
     ConfigModule.forRoot({ isGlobal: true }),
     MongooseModule.forRoot(
-      'mongodb://localhost:27017/sradmbackend?directConnection=true',
+      'mongodb://localhost:27017/srranking?directConnection=true',
       {
         useUnifiedTopology: true,
       },
